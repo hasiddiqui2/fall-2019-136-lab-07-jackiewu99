@@ -1,12 +1,12 @@
 * Fall 2019 - Lab 06
 
 * Last name:
-
+Wu
 * First name:
-
+Jackie
 
 * GitHub username:
-
+jackiewu99
 * Notes:
 
 
