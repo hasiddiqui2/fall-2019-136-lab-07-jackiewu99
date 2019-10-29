@@ -1,0 +1,9 @@
+Person that review me: Imtiaz
+
+When looking at the funcs.cpp file, I see an organized layout of functions.
+Each of them having critical values when it comes to manipulating the input
+the program receives. For the main.cpp it would be helpful to see if
+multi-line input would work though I see it in the unindent function, so
+slightly confused there. Overall the code seems concise and working for the
+task assigned. He also took a different approach and made the function call
+inside of another function for task B.
