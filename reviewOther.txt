@@ -1,4 +1,11 @@
 Person Being Reviewed: Derek
 
 
-Derek's code worked and he had made similar choices like me. For instance he used to test everything through main instead of making a test file. Our makefiles were similar and basically functioned the same as eachother. One big difference I noticed was his choice on reading the file. The user had to manually input the file useing "<" rather than fin stream to read the file while the code ran. There were also some minor different things we did such as what functions went into main.cpp and funcs.cpp but at the end our codes both functioned the same way.
+Derek's code worked and he had made similar choices like me. For instance
+he used to test everything through main instead of making a test file. Our
+makefiles were similar and basically functioned the same as eachother. One
+big difference I noticed was his choice on reading the file. The user had
+to manually input the file useing "<" rather than fin stream to read the
+file while the code ran. There were also some minor different things we did
+such as what functions went into main.cpp and funcs.cpp but at the end our
+codes both functioned the same way.
