@@ -11,7 +11,7 @@ std::string removeLeadingSpaces(std::string line)
   char letter;
   int holder = 0;
   std::string noLead = "";
-  
+
   for(int i = 0; i < line.length();i++)
     {
       letter = line[i];
@@ -24,7 +24,7 @@ std::string removeLeadingSpaces(std::string line)
 	  noLead = line.substr(i,line.length());
 	  return noLead;
 	}
-    }	  
+    }
 }
 
 std::string unindent()
@@ -72,5 +72,8 @@ std::string indent(std::string lineNoIndent)
       withIndent = '\t' + withIndent;
     }
   indentCounter = indentCounter + countChar(lineNoIndent,start);
+  if(countChar(lineNoIndent, '(') > 0 && countChar(lineNoIndent, ';') == 0 && countChar(lineNoIndent, '{')==0){
+     indentCounter++;
+ }
   return withIndent;
 }
